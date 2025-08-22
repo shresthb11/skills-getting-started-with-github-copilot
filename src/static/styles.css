@@ -73,6 +73,30 @@ section h3 {
 .activity-card p {
   margin-bottom: 8px;
 }
+  .participants-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+  }
+  .participant-item {
+    background: #e3e3e3;
+    border-radius: 12px;
+    padding: 3px 10px 3px 8px;
+    display: flex;
+    align-items: center;
+    font-size: 0.95em;
+  }
+  .delete-icon {
+    color: #c62828;
+    cursor: pointer;
+    margin-left: 6px;
+    font-size: 1.1em;
+    transition: color 0.2s;
+  }
+  .delete-icon:hover {
+    color: #a31515;
+  }
 
 .form-group {
   margin-bottom: 15px;
